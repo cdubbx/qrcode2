@@ -6,7 +6,7 @@ services:
     tty: true        # docker run -t
     environment:
       QR_CODE_IMAGE_DIRECTORY: 'images'
-      QR_CODE_DEFAULT_URL: 'https://www.yahoo.com'
+      QR_CODE_DEFAULT_URL: 'https://github.com/cdubbx'
       QR_CODE_DEFAULT_FILE_NAME: 'yahoo.png'
     volumes:
       - .:/home/myuser
